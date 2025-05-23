@@ -7,6 +7,6 @@ A minimal Go development environment with live reload using Docker and Air.
 ```bash
 git clone https://github.com/blanec12/go-docker-starter.git my-new-project
 cd my-new-project
-go mod init
+go mod init my-new-project
 docker-compose up --build
 ```

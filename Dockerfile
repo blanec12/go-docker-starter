@@ -1,6 +1,6 @@
-FROM golang:1.21-alpine
+FROM golang:1.23.4-alpine
 
-RUN go install github.com/cosmtrek/air@v1.40.4
+RUN go install github.com/cosmtrek/air@latest
 
 WORKDIR /app
 
