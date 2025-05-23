@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  goapp:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+      - air_tmp:/app/tmp
+    working_dir: /app
+
+volumes:
+  air_tmp:
